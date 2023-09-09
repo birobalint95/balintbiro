@@ -1,7 +1,7 @@
 ---
 title: Experiences
 layout: template
-filename: experiences.md
+filename: experiences
 --- 
 
-Experiences
+<h1>Experiences</h1>
