@@ -1,8 +1,7 @@
 ---
 title: about
 layout: template
-filename: index.md
+filename: about.md
 --- 
 
-see ya mate
-
+About
