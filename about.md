@@ -1,7 +1,7 @@
 ---
-title: about
+title: About
 layout: template
 filename: about.md
 --- 
 
-About
+<h1>About</h1>

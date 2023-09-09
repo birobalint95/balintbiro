@@ -1,5 +1,5 @@
 ---
-title: experiences
+title: Experiences
 layout: template
 filename: experiences.md
 --- 
