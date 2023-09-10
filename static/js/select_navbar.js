@@ -1,12 +1,19 @@
 $(document).ready (function() {
-    const current_url = document.URL;
-    console.log(current_url);
-    const pieces_of_url = current_url.split(/[\s/]+/)
-    const last_piece_of_url = pieces_of_url[pieces_of_url.length - 1]
-
-    if(last_piece_of_url==""){
-        console.log("about");
+    const currentUrl = document.URL;
+    const piecesOfUrl = currentUrl.split(/[\s/]+/)
+    const lastPieceOfUrl = piecesOfUrl[piecesOfUrl.length - 1]
+    if(lastPieceOfUrl==""){
+        var navItemId = "about";
     } else {
-        console.log(last_piece_of_url);
+        var navItemId = lastPieceOfUrl;
     }
+    var navItemToSelect = document.getElementById(navItemId);
+    var isNavItemSelected = navItemToSelect.classList.contains("selected");
+    var allNavElements = document.getElementsByClassName("nav-item");
+    if (! isNavItemSelected) {
+        [].forEach.call(allNavElements, function(actualNavElement) {
+            actualNavElement.classList.remove("selected");
+        });
+    }
+    navItemToSelect.classList.add("selected");
 });
