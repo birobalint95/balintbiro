@@ -5,15 +5,12 @@
     </head>
     <body>
         <div id="container">
-            {% for page in site.pages %}
-                <a href={{ page.filename }}>{{ page.title }}</a>
-            {% endfor %}
             <nav id="main-navbar">
                 <ul>
                     <li><a id="about" class="nav-item selected" href="/balintbiro/">About</a></li>
                     <li><a id="experiences" class="nav-item" href="experiences">Experiences</a></li>
                 </ul>
-              </nav>
+            </nav>
             {{ content }}
         </div>
     </body>
