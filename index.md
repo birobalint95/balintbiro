@@ -1,7 +1,7 @@
 ---
-title: About
+title: Index
 layout: template
-filename: ''
+filename: index
 --- 
 
 <h1>About</h1>
