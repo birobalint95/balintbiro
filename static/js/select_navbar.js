@@ -1,13 +1,12 @@
 $(document).ready (function() {
-    const url_var = document.URL;
-    console.log(url_var);
+    const current_url = document.URL;
+    console.log(current_url);
+    const pieces_of_url = current_url.split(/[\s/]+/)
+    const last_piece_of_url = pieces_of_url[pieces_of_url.length - 1]
 
-    const host_name = window.location.hostname;
-    console.log(host_name);
-
-    const href_name = window.location.href;
-    console.log(href_name);
-
-    const hash_name = window.location.hash;
-    console.log(hash_name);
+    if(last_piece_of_url==""){
+        console.log("about");
+    } else {
+        console.log(last_piece_of_url);
+    }
 });
