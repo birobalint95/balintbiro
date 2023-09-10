@@ -4,4 +4,4 @@ layout: template
 filename: experiences
 --- 
 
-<h2 class="main-title">Experiences</h1>
+<h2 class="main-title">Experiences</h2>

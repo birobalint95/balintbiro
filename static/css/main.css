@@ -21,25 +21,25 @@ body {
 
 #main-navbar ul {
     padding-inline-start: 0px;
-  }
-  
-  #main-navbar li {
+}
+
+#main-navbar li {
     display: inline-block;
     padding: 10px;
-  }
-  
-  #main-navbar li a {
-      text-decoration: none;
+}
+
+#main-navbar li a {
+    text-decoration: none;
     font-size: 18px;
     font-weight: bold;
     color: rgba(124, 124, 124, 1);
-  }
-  
-  #main-navbar li a:focus, a:hover {
-      color: white !important;
-      text-decoration: none;
-  }
-  
-  #main-navbar li a.selected {
+}
+
+#main-navbar li a:focus, a:hover {
+    color: white !important;
+    text-decoration: none;
+}
+
+#main-navbar li a.selected {
     color: rgba(80, 216, 144) !important;
-  }
+}
