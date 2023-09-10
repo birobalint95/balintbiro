@@ -8,7 +8,12 @@
             {% for page in site.pages %}
                 <a href={{ page.filename }}>{{ page.title }}</a>
             {% endfor %}
-            <h1>Hello World</h1>
+            <nav id="main-navbar">
+                <ul>
+                    <li><a id="about" class="nav-item selected" href="/">About</a></li>
+                    <li><a id="experiences" class="nav-item" href="experiences">Experiences</a></li>
+                </ul>
+              </nav>
             {{ content }}
         </div>
     </body>
