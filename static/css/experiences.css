@@ -1,0 +1,139 @@
+.date {
+    float: right;
+    font-size: 16px;
+    position: relative;
+    top: 14px;
+}
+
+.role-title {
+    margin-bottom: 0px;
+}
+
+.company-title {
+    margin-top: 0px;
+}
+
+.title-section {
+    background: rgba(80, 216, 144);
+    padding: 10px 24px 10px 24px;
+    box-shadow: inset 0px 0px 4px 4px #232931;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.one{
+    width:240px;
+    height:400px;
+    float:left;
+}
+
+.two{
+    width:580px;
+    height:auto;
+    color: white;
+    overflow:hidden;
+}
+
+.rb-container {
+    width: 50%;
+    display: block;
+    position: relative;
+}
+
+.rb-container ul.rb {
+    margin: 2.5em 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.rb-container ul.rb li {
+    list-style: none;
+    margin: auto;
+    margin-left: 2em;
+    min-height: 80px;
+    border-left: 1px dashed rgba(137, 148, 153, 1);
+    min-width: 180px;
+    padding: 0 0 50px 30px;
+    position: relative;
+}
+
+.rb-container ul.rb li.rb-item a {
+    text-decoration: none;
+    top: -12px;
+}
+
+.rb-container ul.rb li:last-child {
+    border-left: 0;
+}
+
+.rb-container ul.rb li::before {
+    position: absolute;
+    left: -10px;
+    top: -2px;
+    content: " ";
+    border: 4px solid rgba(137, 148, 153, 1);
+    border-radius: 500%;
+    background: #232931;
+    height: 10px;
+    width: 10px;
+    transition: all 250ms ease-in-out;
+}
+
+.rb-container ul.rb li:hover::before {
+    border-color: #fff;
+    background: #fff;
+}
+
+.rb-container ul.rb li.rb-item:hover a div.item-title {
+    color: #fff;
+}
+
+.rb-container ul.rb li.rb-item:hover a div.timestamp {
+    color: #fff;
+}
+
+
+@keyframes pulse-animation {
+    0% {
+        box-shadow: 0 0 0 0px rgba(102, 255, 153, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 14px rgba(0, 0, 0, 0);
+    }
+}
+
+ul.rb li .timestamp {
+    color: rgba(137, 148, 153, 1);
+    position: relative;
+    width: 140px;
+    font-size: 12px;
+}
+
+.item-title {
+    color: rgba(137, 148, 153, 1);
+}
+
+.rb-container ul.rb li.rb-item.selected::before {
+    border-color: #50d890;
+    background: #50d890;
+    animation: pulse-animation 2s infinite;
+}
+
+.rb-container ul.rb li.rb-item.selected a div.item-title {
+    color: #fff;
+}
+
+.rb-container ul.rb li.rb-item.selected a div.timestamp {
+    color: #50d890;
+}
+
+.role-description {
+    display: none;
+    padding-left: 36px;
+    border-left: 2px solid rgba(137, 148, 153, 1);
+}
+
+.role-description.displayed {
+    display: block;
+    visibility: visible;
+}
