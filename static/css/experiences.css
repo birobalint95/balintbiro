@@ -114,8 +114,8 @@ ul.rb li .timestamp {
 }
 
 .rb-container ul.rb li.rb-item.selected::before {
-    border-color: #50d890;
-    background: #50d890;
+    border-color: #50d890 !important;
+    background: #50d890 !important;
     animation: pulse-animation 2s infinite;
 }
 
