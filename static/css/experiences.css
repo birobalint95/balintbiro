@@ -79,16 +79,16 @@
     transition: all 250ms ease-in-out;
 }
 
-.rb-container ul.rb li:hover::before {
+.rb-container ul.rb li.rb-item:has(a:hover)::before {
     border-color: #fff;
     background: #fff;
 }
 
-.rb-container ul.rb li.rb-item:hover a div.item-title {
+.rb-container ul.rb li.rb-item a:hover div.item-title {
     color: #fff;
 }
 
-.rb-container ul.rb li.rb-item:hover a div.timestamp {
+.rb-container ul.rb li.rb-item a:hover div.timestamp {
     color: #fff;
 }
 
