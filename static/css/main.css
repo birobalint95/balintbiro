@@ -3,6 +3,10 @@
 
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 
+html {
+    margin-left: calc(100vw - 100%);
+}
+
 body {
   background: #232931;
   font-family: "PT Sans", sans-serif;
@@ -11,6 +15,21 @@ body {
 #container{
   margin: 0 auto;
   width:860px;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    border: 5px solid transparent;
+    background-clip: content-box;
+    background-color: rgba(80, 216, 144);
 }
 
 /* MAIN TITLE */
