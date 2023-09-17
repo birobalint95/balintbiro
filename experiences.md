@@ -1,5 +1,5 @@
 ---
-title: Experiences
+title: Experiences | Balint Biro
 layout: template
 filename: experiences
 --- 
