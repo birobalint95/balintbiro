@@ -1,5 +1,5 @@
 ---
-title: Index
+title: About | Balint Biro
 layout: template
 filename: index
 --- 
