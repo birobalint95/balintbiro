@@ -77,7 +77,7 @@
         "company": "Jaguar Land Rover",
         "area": "Automation & Framework",
         "time": "2021 Sep - 2022 May",
-        "description_html": "./html_snippets/test_automation_product_owner_description.html",
+        "description_html": "./html_snippets/automation_and_framework_product_owner_description.html",
         "skills": {
             "Methodologies and frameworks": [
                 "Agile",
