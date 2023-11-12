@@ -1,0 +1,341 @@
+[
+    {
+        "title": "Product Owner",
+        "company": "Jaguar Land Rover",
+        "area": "Test Automation",
+        "time": "2022 May - present",
+        "description_html": "./html_snippets/test_automation_product_owner_description.html",
+        "skills": {
+            "Methodologies and frameworks": [
+                "Agile",
+                "SAFe",
+                "Scrum",
+                "Kanban"
+            ],
+            "Management and ownership": [
+                "Backlog Management",
+                "Priority Management",
+                "Product Vision",
+                "Product Roadmap",
+                "Product Strategy",
+                "Dependency Management",
+                "Risk Management",
+                "Stakeholder Management",
+                "Stakeholder Communication",
+                "Product Delivery Management"
+            ],
+            "Tools and software": [
+                "Jira",
+                "Confluence",
+                "MS Office",
+                "Git",
+                "Django",
+                "VS Code",
+                "Pycharm",
+                "Lucid",
+                "Xray",
+                "PostgreSQL",
+                "Docker"
+            ],
+            "Programming and web development": [
+                "Python",
+                "HTML",
+                "CSS",
+                "Javascript",
+                "jQuery",
+                "Gherkin",
+                "JSON",
+                "SQL",
+                "AJAX"
+            ],
+            "Processes": [
+                "Test Automation",
+                "Full Stack SW Development",
+                "SW Testing",
+                "SW Integration",
+                "SW Validation and Verification",
+                "Tool Maintenance",
+                "Web Application Development",
+                "Requirement Definition",
+                "Product Development"
+            ],
+            "Support skills": [
+                "Coaching & Mentoring",
+                "Presentation",
+                "Workflow Optimization",
+                "Guideline Creation",
+                "Workshop Organization",
+                "Knowledge Transfer",
+                "Training Organization",
+                "3 Amigos Meeting",
+                "Peer Review"
+            ]
+        }
+    },
+    {
+        "title": "Product Owner",
+        "company": "Jaguar Land Rover",
+        "area": "Automation & Framework",
+        "time": "2021 Sep - 2022 May",
+        "description_html": "./html_snippets/test_automation_product_owner_description.html",
+        "skills": {
+            "Methodologies and frameworks": [
+                "Agile",
+                "SAFe",
+                "Scrum"
+            ],
+            "Management and ownership": [
+                "Backlog Management",
+                "Priority Management",
+                "Product Vision",
+                "Product Roadmap",
+                "Product Strategy",
+                "Dependency Management",
+                "Risk Management",
+                "Stakeholder Management",
+                "Stakeholder Communication",
+                "Product Delivery Management"
+            ],
+            "Tools and software": [
+                "Jira",
+                "Confluence",
+                "MS Office",
+                "Git",
+                "Django",
+                "VS Code",
+                "Pycharm",
+                "Lucid",
+                "Xray",
+                "PostgreSQL",
+                "Docker"
+            ],
+            "Programming and web development": [
+                "Python",
+                "HTML",
+                "CSS",
+                "Javascript",
+                "jQuery",
+                "JSON",
+                "SQL",
+                "AJAX"
+            ],
+            "Processes": [
+                "Test Automation",
+                "Full Stack SW Development",
+                "SW Testing",
+                "SW Integration",
+                "SW Validation and Verification",
+                "Tool Maintenance",
+                "Web Application Development",
+                "Requirement Definition",
+                "Product Development",
+                "UX/UI Design"
+            ],
+            "Support skills": [
+                "Presentation",
+                "Workflow Optimization",
+                "Guideline Creation",
+                "Workshop Organization",
+                "Knowledge Transfer",
+                "Training Organization",
+                "3 Amigos Meeting",
+                "Peer Review",
+                "Pair Programming"
+            ]
+        }
+    },
+    {
+        "title": "SW Developer",
+        "company": "Jaguar Land Rover",
+        "area": "Modelling & Simulation",
+        "time": "2019 Jun - 2021 Sep",
+        "description_html": "./html_snippets/modelling_and_simulation_sw_developer_description.html",
+        "skills": {
+            "Methodologies and frameworks": [
+                "Waterfall",
+                "V-model"
+            ],
+            "Management and ownership": [],
+            "Tools and software": [
+                "Jira",
+                "Confluence",
+                "MS Office",
+                "Git",
+                "Django",
+                "Pycharm",
+                "Xray",
+                "PostgreSQL",
+                "Docker",
+                "IPG Carmaker",
+                "MATLAB",
+                "Simulink",
+                "Unreal Engine"
+            ],
+            "Programming and web development": [
+                "Python",
+                "HTML",
+                "CSS",
+                "Javascript",
+                "jQuery",
+                "JSON",
+                "SQL",
+                "AJAX"
+            ],
+            "Processes": [
+                "Full Stack SW Development",
+                "SW Testing",
+                "SW Integration",
+                "SW Validation and Verification",
+                "Tool Maintenance",
+                "Web Application Development",
+                "Requirement Definition",
+                "Product Development",
+                "UX/UI Design"
+            ],
+            "Support skills": [
+                "Presentation",
+                "Guideline Creation",
+                "Knowledge Transfer",
+                "Peer Review",
+                "Pair Programming"
+            ]
+        }
+    },
+    {
+        "title": "Technical Manager",
+        "company": "BME Formula Racing Team",
+        "area": "Electric & Driverless Cars",
+        "time": "2018 Sep - 2019 Feb",
+        "description_html": "./html_snippets/electric_and_driverless_cars_technical_manager_description.html",
+        "skills": {
+            "Methodologies and frameworks": [
+                "Waterfall",
+                "V-model"
+            ],
+            "Management and ownership": [
+                "Product Strategy",
+                "Dependency Management",
+                "Risk Management",
+                "Stakeholder Management",
+                "Stakeholder Communication",
+                "Product Delivery Management"
+            ],
+            "Tools and software": [
+                "MS Office",
+                "PTC Creo",
+                "Smartsheet",
+                "IPG Carmaker"
+            ],
+            "Programming and web development": [],
+            "Processes": [
+                "Architecture",
+                "System Design",
+                "Mechanical design",
+                "Manufacturing"
+            ],
+            "Support skills": [
+                "Presentation",
+                "Workflow Optimization",
+                "Guideline Creation",
+                "Workshop Organization",
+                "Knowledge Transfer",
+                "Training Organization"
+            ]
+        }
+    },
+    {
+        "title": "Chief Engineer",
+        "company": "BME Formula Racing Team",
+        "area": "Electric & Driverless Cars",
+        "time": "2017 Sep - 2018 Sep",
+        "description_html": "./html_snippets/electric_and_driverless_cars_chief_engineer_description.html",
+        "skills": {
+            "Methodologies and frameworks": [
+                "Waterfall",
+                "V-model"
+            ],
+            "Management and ownership": [
+                "Backlog Management",
+                "Priority Management",
+                "Product Vision",
+                "Product Roadmap",
+                "Product Strategy",
+                "Dependency Management",
+                "Risk Management",
+                "Stakeholder Management",
+                "Stakeholder Communication",
+                "Product Delivery Management"
+            ],
+            "Tools and software": [
+                "MS Office",
+                "PTC Creo",
+                "Smartsheet",
+                "IPG Carmaker",
+                "MATLAB",
+                "Simulink"
+            ],
+            "Programming and web development": [],
+            "Processes": [
+                "Architecture",
+                "System Design",
+                "Mechanical design",
+                "Manufacturing",
+                "SIL Simulation"
+            ],
+            "Support skills": [
+                "Presentation",
+                "Workflow Optimization",
+                "Guideline Creation",
+                "Workshop Organization",
+                "Knowledge Transfer",
+                "Training Organization"
+            ]
+        }
+    },
+    {
+        "title": "Group Leader",
+        "company": "BME Formula Racing Team",
+        "area": "Vehicle Dynamics Control",
+        "time": "2016 Sep - 2017 Sep",
+        "description_html": "./html_snippets/vehicle_dynamics_control_group_leader_description.html",
+        "skills": {
+            "Methodologies and frameworks": [
+                "Waterfall",
+                "V-model"
+            ],
+            "Management and ownership": [
+                "Backlog Management",
+                "Priority Management",
+                "Product Vision",
+                "Product Roadmap",
+                "Product Strategy",
+                "Dependency Management",
+                "Risk Management",
+                "Product Delivery Management"
+            ],
+            "Tools and software": [
+                "MS Office",
+                "Smartsheet",
+                "IPG Carmaker",
+                "MATLAB",
+                "Simulink"
+            ],
+            "Programming and web development": [],
+            "Processes": [
+                "SIL Simulation",
+                "SW Testing",
+                "SW Integration",
+                "SW Validation and Verification",
+                "Tool Maintenance",
+                "Product Development"
+            ],
+            "Support skills": [
+                "Presentation",
+                "Guideline Creation",
+                "Workshop Organization",
+                "Knowledge Transfer",
+                "Knowledge Transfer"
+            ]
+        }
+    }
+]

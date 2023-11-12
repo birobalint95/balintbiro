@@ -1,7 +1,9 @@
 /*** importing css files ***/
 @import "experiences.css";
+@import "about.css";
 
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css");
 
 html {
     margin-left: calc(100vw - 100%);
@@ -20,11 +22,9 @@ body {
 ::-webkit-scrollbar {
     width: 20px;
 }
-
 ::-webkit-scrollbar-track {
     border-radius: 100px;
 }
-
 ::-webkit-scrollbar-thumb {
     border-radius: 100px;
     border: 5px solid transparent;
@@ -36,9 +36,26 @@ body {
 
 .main-title{
     color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 40px;
+    padding-bottom: 20px;
+    background-color: #232931;
+    z-index: 99;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 /* NAVBAR */
+
+#main-navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0; 
+    background-color: #232931; 
+    z-index: 99;
+}
 
 #main-navbar ul {
     padding-inline-start: 0px;

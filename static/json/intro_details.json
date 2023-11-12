@@ -1,0 +1,130 @@
+{
+    "studies": [
+        {
+            "result": "University degree",
+            "institution": "University of Technology",
+            "location": "Budapest, Hungary",
+            "time": "2014 Sep - 2018 Jun",
+            "description_html": "./html_snippets/university_degree_description.html"
+        },
+        {
+            "result": "A year abroad",
+            "institution": "De La Salle Gymnasium",
+            "location": "Vienna, Austria",
+            "time": "2012 Sep - 2013 Jun",
+            "description_html": "./html_snippets/a_year_abroad_description.html"
+        },
+        {
+            "result": "High school graduation",
+            "institution": "Bolyai Janos School",
+            "location": "Szombathely, Hungary",
+            "time": "2002 Sep - 2014 Jun",
+            "description_html": "./html_snippets/high_school_graduation_description.html"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Professional Scrum Product Owner™ I",
+            "image_location": "./static/images/pspo_1.png",
+            "pdf_location": "./static/pdfs/PSPOI_BalintBiro.pdf"
+        },
+        {
+            "name": "Professional Scrum Master™ I",
+            "image_location": "./static/images/psm_1.png",
+            "pdf_location": "./static/pdfs/PSMI_BalintBiro.pdf"
+        },
+        {
+            "name": "ISTQB® Certified Tester Foundation Level",
+            "image_location": "./static/images/istqb_ctfl.jpg",
+            "pdf_location": "./static/pdfs/ISTQB_BalintBiro.pdf"
+        },
+        {
+            "name": "Coursera Django Specialization",
+            "image_location": "./static/images/coursera_django.png",
+            "pdf_location": "./static/pdfs/Coursera_Django.pdf"
+        },
+        {
+            "name": "English B2 Language Certification",
+            "image_location": "./static/images/ecl_english.png",
+            "pdf_location": "./static/pdfs/english_language_certification.pdf"
+        },
+        {
+            "name": "German B2 Language Certification",
+            "image_location": "./static/images/ecl_german.png",
+            "pdf_location": "./static/pdfs/german_language_certification.pdf"
+        }
+    ],
+    "hobbies": [
+        {
+            "name": "Travelling",
+            "image_location": "./static/images/hobby_travelling.svg"
+        },
+        {
+            "name": "Hiking",
+            "image_location": "./static/images/hobby_hiking.svg"
+        },
+        {
+            "name": "Swimming",
+            "image_location": "./static/images/hobby_swimming.svg"
+        },
+        {
+            "name": "Waterpolo",
+            "image_location": "./static/images/hobby_waterpolo.svg"
+        },
+        {
+            "name": "Soccer",
+            "image_location": "./static/images/hobby_soccer.svg"
+        },
+        {
+            "name": "Skiing",
+            "image_location": "./static/images/hobby_skiing.svg"
+        },
+        {
+            "name": "Reading",
+            "image_location": "./static/images/hobby_reading.svg"
+        },
+        {
+            "name": "Listening to music",
+            "image_location": "./static/images/hobby_listening_music.svg"
+        },
+        {
+            "name": "Making music",
+            "image_location": "./static/images/hobby_making_music.svg"
+        },
+        {
+            "name": "Watching movies",
+            "image_location": "./static/images/hobby_watching_movies.svg"
+        },
+        {
+            "name": "Going out",
+            "image_location": "./static/images/hobby_going_out.svg"
+        }
+    ],
+    "languages": [
+        {
+            "name": "Hungarian",
+            "country_code": "hu",
+            "level": "Native",
+            "description": "My mother language as I was born and raised in Hungary."
+        },
+        {
+            "name": "English",
+            "country_code": "gb",
+            "level": "Professional",
+            "description": "<a class='clickable-inline-link' href='./static/pdfs/english_language_certification.pdf' target='_blank'>B2 language certification</a>, I was speaking the language in the last years on a daily basis in work."
+        },
+        {
+            "name": "German",
+            "country_code": "de",
+            "level": "Intermediate",
+            "description": "I have a <a class='clickable-inline-link' href='./static/pdfs/german_language_certification.pdf' target='_blank'>B2 language certification</a> but did not speak the language frequently in the last few years."
+        },
+        {
+            "name": "Spanish",
+            "country_code": "es",
+            "level": "Beginner",
+            "description": "I would love to speak Spanish so I recently started learning it."
+        }
+    ]
+}
+
